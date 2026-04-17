@@ -124,7 +124,7 @@ const styles = StyleSheet.create({
   },
   form: {
     gap: 10,
-    paddingTop: 20,
+    paddingTop: 10,
   },
   button: {
     backgroundColor: colors.primary,
