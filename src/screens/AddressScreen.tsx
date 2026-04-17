@@ -88,6 +88,7 @@ const styles = StyleSheet.create({
   },
   topSection: {
     padding: 20,
+    marginTop: 10,
   },
   headerRow: {
     flexDirection: "row",
@@ -96,18 +97,20 @@ const styles = StyleSheet.create({
     position: "relative",
   },
   stepText: {
-    color: "#888",
-    marginBottom: 10,
+    color: colors.textPrimary,
+    marginBottom: 8,
+    fontWeight: "700",
   },
   title: {
     fontSize: 26,
     fontWeight: "700",
     color: colors.primary,
-    marginBottom: 10,
+    marginBottom: 8,
   },
   subtitle: {
     color: colors.textSecondary,
-    fontSize: 18,
+    fontSize: 17,
+    fontWeight: "400",
   },
   bottomContainer: {
     flex: 1,

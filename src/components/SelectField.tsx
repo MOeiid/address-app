@@ -26,10 +26,10 @@ export const SelectField = ({ label, value, placeholder, onPress }: Props) => {
 };
 
 const styles = StyleSheet.create({
-  container: { marginBottom: 16 },
+  container: { marginBottom: 10 },
   label: {
     marginBottom: 6,
-    fontSize: 14,
+    fontSize: 16,
     color: colors.textPrimary,
     fontWeight: "700",
   },
